@@ -34,5 +34,12 @@ namespace firstProject.Controllers
 
             return View();
         }
+        public ActionResult Search()
+        {
+            ViewBag.Message = "Your Search Page";
+
+            return View();
+        }
+
     }
 }
