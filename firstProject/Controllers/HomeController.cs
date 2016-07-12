@@ -40,6 +40,18 @@ namespace firstProject.Controllers
 
             return View();
         }
+        public ActionResult Feedb() 
+        {
+            ViewBag.Message = "Feed Me Back.";
+
+            return View();
+        }
+        public ActionResult FAQ() 
+        {
+            ViewBag.Message = "Ask Me, Ask Me.";
+
+            return View();
+        }
 
     }
 }

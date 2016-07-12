@@ -595,7 +595,9 @@ a:hover {
     animation-duration: 1s; 
     text-shadow: 5px 5px 5px;
 }
-
+#mask {
+    display: none;
+}
 @-webkit-keyframes hoverE 
 {
     from {

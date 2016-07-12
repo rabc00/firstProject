@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Feedback";
+}
+>
+<head>
+
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+</head>
+
+
+
+<hgroup class="title">
+    <h1><span class="label label-info">@ViewBag.Title.</span></h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+<div class="ipWrap">
+<div class="input-group" style="width:66%;">
+            <input type="text" class="form-sontrol" placeholder="Title" aria-describedby="basic-addon1" style="width:100%" />
+        </div>
+          <br />
+         <div class="input-group">
+            <input type="text" class="form-sontrol" placeholder="Last Name" aria-describedby="basic-addon1" />&nbsp;
+             <input type="text" class="form-sontrol" placeholder="First Name"  aria-describedby="basic-addon1" />
+        </div>
+          <br />
+          <div class="input-group" style="width:66%">
+            <input type="text" class="form-sontrol" placeholder="Content"  aria-describedby="basic-addon1" style="width:100%;" />
+        </div>
+    </div>
+          <br />
+          <button type="button" class="btn btn-info" aria-label="Left Align" onclick="display_On()">
+              <span class="glyphicon glyphicon-star"></span>Submit
+          </button>
+<div id="mask">
+    <h3><span class="label label-success">Thank You</span></h3>
+    <p>
+        We Have graciously recieve your Feedback 
+    </p>
+
+</div>
